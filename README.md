@@ -4,8 +4,9 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 # 📌 Charger les données
+url = 'https://drive.google.com/uc?id=1nh1DzJNRQry5pC74Nb0BSYn1nKazjDN-'
 df = pd.read_csv("final_fr.csv")
-test_scaled = pd.read_csv("reco_film (2).csv")
+test_scaled = pd.read_csv(url)
 df_final5 = pd.read_csv("final10.csv")
 
 # 🎨 Appliquer un fond d'écran
